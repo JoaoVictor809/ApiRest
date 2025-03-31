@@ -26,7 +26,7 @@ export default function Content() {
                 setLoading(false);
             }
         } catch (error) {
-            console.error("Unexpected error during data fetching:", error);
+            console.error("Erro inesperado:", error);
             setLoading(false);
         }
     };
