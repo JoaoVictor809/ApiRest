@@ -1,4 +1,4 @@
-import { api } from "../apis";  // Certifique-se de que o caminho está correto.
+import { api } from "../apis";  
 
 export const useGetdata = () => {
   const getEnem = async () => {
